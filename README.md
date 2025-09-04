@@ -1,111 +1,138 @@
-# Ex.No.4-Scenario-Based Report Development Utilizing Diverse Prompting Techniques
+# Ex.No.4 - Scenario-Based Report Development Utilizing Diverse Prompting Techniques
+
 ### DATE: 03/09/2025                                                                        
-### REGISTER NUMBER : 212223060032
-### NAME: CHANDRU R
-### Aim: To design an AI-powered chatbot that assists customers in resolving issues related to product troubleshooting, order tracking, and general inquiries. The chatbot should handle various customer queries efficiently while maintaining a conversational and user-friendly tone. In this experiment, we will employ different prompt patterns to guide the development process of the chatbot, ranging from basic task-oriented prompts to more complex, persona-driven prompts. Case study 2 with Comparative Analysis Prompt, Universal Prompt, Structures Prompt Refinements and Prompt Size Limitations
+### REGISTER NUMBER : 212223060032  
+### NAME: CHANDRU R  
 
-### Explanation - Any one use case from Unit 5 and generate the report for that with the unit 2 Prompt type
+---
 
-## AI-Powered Prompting Experiment: Self-Driving Cars at Crowded Intersections
+## Aim  
+To design an AI-powered chatbot that supports **remote patient monitoring (RPM)** in healthcare by answering patient questions, tracking vital signs, and providing medication reminders. The chatbot should deliver accurate medical guidance (non-diagnostic), maintain empathy, and ensure user trust.  
 
-## Scenario
-How can self-driving cars prioritize safety when navigating crowded intersections?
+In this experiment, we employ different **prompting techniques**—Comparative Analysis, Alternative Framing, and Prompt Size Variations—to explore how AI generates context-specific healthcare insights.
 
-Self-driving cars face complex decision-making challenges in crowded intersections where pedestrians, cyclists, and vehicles move unpredictably.
-The aim of this experiment is to apply different AI prompting techniques to analyze strategies, compare alternatives, and evaluate the effectiveness of safety-first navigation.
+---
 
-## 1. Comparative Analysis Prompt
+## AI-Powered Prompting Experiment: Remote Patient Monitoring  
 
-### Prompt Example
-Compare how self-driving cars can prioritize safety at crowded intersections using three different approaches:
+## Scenario  
+How can an AI-powered healthcare chatbot improve safety and effectiveness in **remote patient monitoring (RPM)** systems?  
 
-* Sensor fusion with LiDAR + cameras
-* Vehicle-to-Everything (V2X) communication
-* AI-based risk prediction models. Highlight strengths, weaknesses, and best use cases.
+Patients with chronic illnesses (e.g., diabetes, hypertension, cardiac conditions) need **continuous tracking** and real-time alerts. The challenge lies in balancing **data accuracy, patient safety, and user-friendliness** while handling sensitive medical information.  
 
-### AI Response (Expected)
+This experiment applies **diverse prompt styles** to study AI-driven strategies for RPM.
 
-* Sensor fusion (LiDAR + cameras): Offers highly accurate object recognition, though performance drops in adverse weather and costs are high.
-* V2X communication: Improves coordination and extends awareness beyond direct visibility, but relies on supporting infrastructure and widespread adoption.
-* AI-based risk prediction: Identifies potential risky actions by learning behavioral patterns, yet demands extensive datasets and can lack interpretability.
+---
 
-### Comparative Insight:
+## 1. Comparative Analysis Prompt  
 
-* Sensor fusion → provides instant situational detection.
-* V2X → enables better traffic coordination and shared knowledge.
-* AI prediction → introduces predictive foresight into human behavior.
-Best solution: Integrating all three creates the most reliable safety system at busy intersections.
+### Prompt Example  
+Compare three approaches that an AI chatbot can use to improve patient safety in remote monitoring:
 
-## 2. Comparative Analysis Prompt (Alternative Framing)
+- Wearable IoT devices (heart rate, BP, glucose trackers)  
+- Mobile health apps with reminders and logs  
+- AI-based predictive alerts for early risk detection  
 
-### Prompt Example
+### AI Response (Expected)  
 
-Evaluate how safety prioritization differs when self-driving cars adopt a conservative decision-making model versus an assertive decision-making model at intersections. Which approach minimizes accidents and which ensures smoother traffic flow?
+- **Wearable IoT devices:** Provide real-time, continuous tracking; limited by device errors and connectivity issues.  
+- **Mobile health apps:** Affordable and user-friendly; depend on patient consistency.  
+- **AI predictive alerts:** Anticipate risks proactively; require large training datasets and may trigger false alarms.  
 
-### AI Response (Expected)
+**Comparative Insight:**  
+- IoT wearables → real-time accuracy  
+- Apps → ease of access  
+- AI alerts → preventive foresight  
+**Best solution:** **Hybrid integration of all three** ensures safety and reliability.
 
-* Conservative model: Reduces accident risk but slows traffic.
-* Assertive model: Improves flow but raises accident likelihood.
+---
 
-### Comparative Insight
+## 2. Comparative Analysis Prompt (Alternative Framing)  
 
-* Conservative → prioritizes safety.
-* Assertive → prioritizes efficiency.
-Best solution: A balanced mix based on intersection conditions.
+### Prompt Example  
+Evaluate how patient safety differs when AI chatbots adopt:  
 
-## 3. Prompt Size Limitations Technique
+- A **reactive model** (responding to alerts after events)  
+- A **proactive model** (predicting health risks before they occur)  
 
-### Short Prompt
+### AI Response (Expected)  
 
-Prompt: "How should self-driving cars ensure safety at busy intersections?"
-AI Response: Use sensors, predict movements, obey traffic laws, prioritize pedestrians.
+- **Reactive model:** Reliable for emergency responses but lacks preventive care.  
+- **Proactive model:** Reduces hospitalizations through early warnings, but may cause anxiety from frequent alerts.  
 
-### Extended Prompt
+**Insight:**  
+- Reactive → strong for crisis management  
+- Proactive → long-term health management  
+Balanced solution = **Adaptive hybrid model**.
 
-Prompt: "Explain the methods self-driving cars can use to maximize safety at crowded intersections, including how they rely on sensors, predict the movements of nearby vehicles and pedestrians, follow traffic regulations, and prioritize the protection of vulnerable road users like pedestrians."
-AI Response: Multi-layered strategies → advanced perception, V2X integration, ethical decision frameworks, redundancies.
+---
 
-Observation:
-* Short prompts = General, surface-level responses
-* Extended prompts = Rich, structured insights
+## 3. Prompt Size Limitations  
 
-## 4. Experimental Setup
+### Short Prompt  
+**Prompt:** “How can AI chatbots help in remote patient monitoring?”  
+**Response:** Track vitals, send alerts, give reminders, support patients.  
 
-* Objective: Examine how various prompting styles influence AI in suggesting strong safety strategies.
-* Method: Apply comparative analysis prompts, adjust their framing, and compare brief versus expanded versions.
-* Data: Insights from autonomous driving safety research combined with AI-generated outputs.
-* Evaluation Metric: Measured by how detailed, clear, and practical the responses are.
+### Extended Prompt  
+**Prompt:** “Explain in detail how AI chatbots can improve remote patient monitoring by integrating wearable IoT devices, mobile health apps, predictive analytics, and personalized communication while ensuring patient privacy and compliance with healthcare standards.”  
+**Response:** Detailed strategies → secure data handling, interoperability with hospital systems, personalized care, multilingual support, HIPAA/GDPR compliance.  
 
-## 5. Results and Analysis
+**Observation:**  
+- Short prompts → Generic responses  
+- Extended prompts → Detailed, structured healthcare insights  
 
-* Comparative prompts → Highlight advantages and limitations of safety approaches.
-* Alternative framing → Exposes the balance between safety and efficiency.
-* Prompt size variations → Demonstrate that detailed prompts yield more tailored, scenario-focused strategies.
+---
 
-<img width="1920" height="1028" alt="image" src="https://github.com/user-attachments/assets/2d85983a-e4cf-4275-acbd-dc19a48b6bb2" />
+## 4. Experimental Setup  
 
+- **Objective:** Analyze how prompt types influence AI’s effectiveness in healthcare scenarios.  
+- **Method:** Apply comparative prompts, reframe perspectives, and test prompt length.  
+- **Data:** AI-generated outputs + RPM system design references.  
+- **Evaluation Metric:** Clarity, medical safety, personalization.  
 
-## 6. Comparative Analysis Table
+---
 
-| Strategy                        | Core Function                                    | Key Strengths                                 | Main Drawbacks                                  | Ideal Scenarios                                    |
-|---------------------------------|--------------------------------------------------|-----------------------------------------------|-------------------------------------------------|----------------------------------------------------|
-| Sensor Fusion (LiDAR + Cameras) | Integrates visual and distance sensors for live monitoring | Precise detection, backup layers, consistent tracking | High price tag, reduced reliability in bad weather | Dense city junctions with heavy pedestrian movement |
-| Vehicle-to-Everything (V2X)     | Shares data with nearby cars and road systems      | Improves coordination, lowers crash likelihood | Needs connected infrastructure and vehicle compatibility | Tech-enabled urban areas and smart road networks    |
-| AI Risk Prediction Models       | Analyzes patterns to anticipate road user actions  | Can foresee unpredictable driver or pedestrian moves | Relies heavily on large datasets, may inherit bias | Complicated crossroads with varied traffic types    |
-| Conservative Model              | Operates cautiously, often yielding or stopping    | Strong focus on safety, protects pedestrians   | Creates slowdowns, may irritate human drivers     | Intersections dominated by pedestrian activity      |
-| Assertive Model                 | Acts confidently, following rules with less hesitation | Promotes smoother, more efficient traffic flow | Increased chance of minor conflicts or near-misses | High-speed roads, merging points                    |
-| Hybrid Adaptive                 | Switches between cautious and confident modes      | Balances protection with efficiency            | Requires advanced calibration and fine-tuning     | Busy junctions where traffic levels change quickly  |
+## 5. Results and Analysis  
 
+- **Comparative prompts:** Show relative advantages of IoT, apps, and AI alerts.  
+- **Alternative framing:** Reveals trade-offs between proactive vs. reactive safety.  
+- **Prompt size:** Extended prompts provide richer, medically safer guidance.  
 
-<img width="722" height="463" alt="image" src="https://github.com/user-attachments/assets/63cafaa7-d48c-49b7-9262-37c0eb419a29" />
+---
 
-## 7. Conclusion
+## 6. Comparative Analysis Table  
 
-This experiment demonstrates that the way prompts are designed strongly shapes the quality of AI insights on self-driving car safety.
-* Comparative prompts → Clarify strengths, weaknesses, and trade-offs.
-* Alternative framing → Highlights the balance between caution and efficiency.
-* Prompt length → Longer prompts lead to more detailed, nuanced responses.
-In practice, well-structured and context-aware prompts are vital for steering AI toward safer strategies in autonomous driving.
+| Strategy                   | Core Function                        | Strengths                              | Weaknesses                            | Best Use Cases                        |
+|-----------------------------|--------------------------------------|----------------------------------------|----------------------------------------|---------------------------------------|
+| Wearable IoT Devices        | Continuous real-time monitoring      | Accurate vitals, alerts on changes     | Connectivity issues, device errors     | Chronic patients (cardiac, diabetes) |
+| Mobile Health Apps          | Patient self-logging & reminders     | Low cost, easy to use                  | Relies on patient consistency          | Medication adherence                  |
+| AI Predictive Alerts        | Risk prediction using analytics      | Preventive care, early intervention    | False alarms, data-heavy requirements  | High-risk patients, ICU monitoring    |
+| Reactive Model              | Responds after events                | Effective emergency handling           | Misses preventive measures             | Critical events, emergency response   |
+| Proactive Model             | Anticipates risks before escalation  | Improves long-term outcomes            | Patient anxiety, false positives       | Chronic illness management            |
+| Adaptive Hybrid             | Switches between reactive & proactive| Balanced, safe, efficient              | Complex to implement                   | Real-world RPM systems                |
 
-# Result: Thus the Prompts were exected succcessfully.
+---
+
+## 7. Conclusion  
+
+This experiment demonstrates how **prompt design impacts healthcare AI chatbots** in RPM:  
+
+- Comparative prompts → clarify strengths/weaknesses of healthcare strategies.  
+- Alternative framing → exposes **reactive vs. proactive trade-offs**.  
+- Prompt length → longer prompts yield **safer, medically aligned responses**.  
+
+👉 **Insight:** Well-structured prompts are essential to guide healthcare AI toward accuracy, trust, and safety in patient care.
+
+---
+
+## Result  
+Thus, the prompts were executed successfully.  
+
+---
+
+## Illustrations  
+
+<img width="720" alt="iot-monitoring" src="https://github.com/user-attachments/assets/example-iot-monitoring.png" />  
+
+<img width="720" alt="chatbot-healthcare" src="https://github.com/user-attachments/assets/example-chatbot-healthcare.png" />  
 
