@@ -129,10 +129,3 @@ This experiment demonstrates how **prompt design impacts healthcare AI chatbots*
 Thus, the prompts were executed successfully.  
 
 ---
-
-## Illustrations  
-
-<img width="720" alt="iot-monitoring" src="https://github.com/user-attachments/assets/example-iot-monitoring.png" />  
-
-<img width="720" alt="chatbot-healthcare" src="https://github.com/user-attachments/assets/example-chatbot-healthcare.png" />  
-
